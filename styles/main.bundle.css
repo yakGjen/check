@@ -427,7 +427,7 @@ body {
     text-decoration: none; }
 
 .main {
-  background-image: url(/766fc4b4f6db74cd109a.png);
+  background-image: url(./766fc4b4f6db74cd109a.png);
   background-repeat: no-repeat;
   background-size: 100% 100%; }
   .main_contacts {
@@ -436,7 +436,7 @@ body {
 .intro {
   padding: 113px 30px 238px 116px;
   position: relative;
-  background-image: url(/5dffb50767ba3ddcd114.png);
+  background-image: url(./5dffb50767ba3ddcd114.png);
   background-repeat: no-repeat;
   background-position: 84% 40%; }
   @media (max-width: 992px) {
