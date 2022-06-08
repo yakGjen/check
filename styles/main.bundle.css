@@ -444,7 +444,7 @@ body {
   background-position: 84% 40%; }
   @media (max-width: 992px) {
     .intro {
-      padding: 42px 0 307px 0;
+      padding: 30px 0 307px 0;
       background-position: center 88%;
       background-size: 50%; } }
   @media (max-width: 744px) {
@@ -535,8 +535,8 @@ body {
               flex-direction: column-reverse; } }
   @media (max-width: 992px) {
     .about {
-      padding-top: 33px;
-      padding-bottom: 31px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       gap: 16px; } }
   .about::before {
     content: '';
@@ -684,8 +684,8 @@ body {
       padding-right: 0; } }
   @media (max-width: 992px) {
     .advantages {
-      padding-top: 31px;
-      padding-bottom: 29px; } }
+      padding-top: 30px;
+      padding-bottom: 30px; } }
   .advantages__header {
     margin-bottom: 76px;
     font-family: 'Oswald', sans-serif;
@@ -864,7 +864,6 @@ body {
     text-align: right; }
     @media (max-width: 992px) {
       .contacts__header {
-        margin-bottom: 18px;
         font-weight: 300;
         font-size: 30px;
         line-height: 100%;
@@ -1065,6 +1064,9 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px; }
+  @media (max-width: 992px) {
+    .catalog__items {
+      padding-bottom: 30px; } }
 
 .catalog .zm {
   max-width: 635px;
@@ -1080,6 +1082,9 @@ body {
 
 .granite {
   padding-bottom: 70px; }
+  @media (max-width: 992px) {
+    .granite {
+      padding-bottom: 30px; } }
   .granite__header {
     margin-bottom: 50px;
     font-family: 'Oswald', sans-serif;
@@ -1110,8 +1115,9 @@ body {
       .granite__row {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; } }
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
     @media (max-width: 992px) {
       .granite__row {
         gap: 20px; } }
@@ -1184,6 +1190,7 @@ body {
   gap: 30px; }
   @media (max-width: 992px) {
     .examples__items {
+      padding-bottom: 30px;
       gap: 20px; } }
   @media (max-width: 480px) {
     .examples__items {
@@ -1332,6 +1339,7 @@ body {
         margin-top: 30px; } }
     @media (max-width: 992px) {
       .contacts-page__schedule-mobile {
+        margin-top: 0;
         display: block; } }
     .contacts-page__schedule-mobile p:not(:last-child) {
       margin-bottom: 20px; }
